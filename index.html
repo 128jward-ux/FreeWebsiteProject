@@ -1,68 +1,206 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Road to Wrestlemaina</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Wrestlemaina</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">What is Wrestlemaina?</a>
-        </li>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Night One Matches</a>
-        </li>
-        <li class="nav-item">
-<a class="nav-link" href="#">Night Two Matches</a>
-        </li>
-        <li class="nav-item">
-<a class="nav-link" href="#"></a>
-        </li>
-        <li class="nav-item">
-<a class="nav-link" href="#"></a>
-        </li>
-      </ul>
-      </form>
-    </div>
-  </div>
-</nav>
-<h1 class="text center mb-4">The Road to Wrestlemaina</h1>
-<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="download (1).jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="..." class="d-block w-100" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Road to Wrestlemaina</title>
+  <!-- BOOTSTRAP CSS LINK -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- OUR CSS LINK -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <nav class="navbar fixed-top navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <a class="navbar-brand" href="#">Road to Wrestlemaina</a>
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#teams">Teams</a>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">FAQ</a>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.ncaa.com/march-madness-live/bracket" target="_blank">Bracket</a>
+          </li>
+          </li>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- NAVBAR DARK FIXED-TOP -->
+  <!-- NAVBAR BRAND GETS LINKED TO THE HOME SECTION -->
+  <!-- NAVBAR NEEDS TO BE RESPONSIVE (LOOK FOR TOGGLER) -->
+  <!-- THE href FOR THE BRACKET LINK NEEDS TO INCLUDE  ATTRIBUTE -->
+
+
+  <section id="home" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h1 class="text-center mb-4">The Road to Wrestlemaina</h1>
+          <!-- CAROUSEL GOES HERE WITH 3 PICTURES-->
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="download (1).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="download (2).jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="download (3).jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section id="about" class="py-5 bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center mb-4">About March Madness</h2>
+          <p>March Madness is the annual NCAA Division I men's and women's basketball tournaments, known for
+            their single-elimination format and intense competition. The tournament features 68 teams
+            competing for the national championship.</p>
+          <p>The tournament begins with conference tournaments and culminates in the NCAA Tournament, where
+            teams are selected based on their regular season performance and rankings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="teams" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Night 1 Highlight Matches</h2>
+        </div>
+      </div>
+
+      <!-- ADD 3 CARDS HERE -->
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="download.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cody Rhodes Vs Randy Orton</h5>
+                <p class="card-text">WWE Champion Cody Rhodes takes on Randy Orton, with Pat Mcafee in his corner, for
+                  the championship as the night one main event.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="images.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Seth Rollins Vs Gunther</h5>
+                <p class="card-text">The architect, who has just come back from injury, takes on the carrer killer in
+                  this thrilling match up.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="download (4).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Usos and La Knight Vs The Vision and Speed</h5>
+                <p class="card-text">After weeks of feuding with each other, The Usos and La Knight finally get to take
+                  on The Vision and Speed.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+  <section id="teams" class="py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center mb-4">Night 2 Highlight Matches</h2>
+        </div>
+      </div>
+
+
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="download (5).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Cm Punk Vs Roman Reigns</h5>
+                <p class="card-text">The World Heavyweight Champion Cm Punk takes on the 2026 Royal Rumble Winner Roman
+                  Regins. The OTC and Best in the World have been feuding for weeks and they finally get to prove who is
+                  the best in the business as the night two main event.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="images (1).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Brock Lesnar Vs Oba Femi</h5>
+                <p class="card-text">The Beast takes on the new up and coming Oba Femi. Oba Femi answered Lesnar's open challenge and ever since then, these two have been attempting to tear each other a part. At Wrestlemaina, they are going to tear the house down.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-4">
+            <div class="card h-100">
+              <img src="download (6).jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Six Man Intercontinental Title Ladder Match</h5>
+                <p class="card-text">The Intercontinental Title is on the line in a six man ladder match, where the goal is to climb a ladder and grab the championship. The competitors of this match are the champ Penta, Dragon Lee, Rusev, </p>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+
+
+
+
+
+  <!-- EACH CARD HAS IT'S OWN COLUMN -->
+
+
+
+  <!-- ADD BOOTSTRAP JS LINK HERE -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
